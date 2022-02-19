@@ -12,6 +12,12 @@
    
 }
 
+.left_side , .masd, main{
+    background-image: url(./Assets/My\ project.jpg);
+    background-color: #000000;
+    padding: 10%;
+}
+
 nav{
     background-color: #000000;
 }
@@ -63,27 +69,19 @@ footer a{
     color: #00AAA9;
 }
 
-.carousel-item {
-    height: 100%;
-    overflow: hidden;
+/*carrusel*/
+
+.carousel-inner>.carousel-item>img{
     width: 100%;
-    object-fit: cover;
+    height:100%;
 }
 
-.carousel-item img {
-    width: 100%;
-}
-
-.carousel {
-    width:640px;
-    height:360px;
-}
 
 .masd{
     height: 100vh;
     display: flex;
     color: white;
-    font: 20px;
+    font-size: 25px;
     text-align: center;
     align-items: center;
     padding-right: 10%;
@@ -104,4 +102,6 @@ footer a{
     text-align: left;
     border: solid black;
     padding: 1%;
+    background-color: #202b2a;
+    color: rgb(134, 134, 134) ;
 }
